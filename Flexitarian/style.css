@@ -12,11 +12,7 @@ html {
     padding-right: 1rem;
     width: 300px;
     margin: 10rem auto;
-    display: flex;
-    flex-direction: column;
-
     
-
 }
 
 
@@ -47,6 +43,7 @@ h2 {
 p {
     margin: 0;
     font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .bold {
