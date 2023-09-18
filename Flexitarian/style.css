@@ -1,0 +1,77 @@
+html {
+    font-size: 62.5%;
+}
+
+.container {
+    border: 1px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    max-width: 300px;
+    
+
+}
+/* typography */
+
+
+h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size:  2rem;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* line board styles */
+
+
+.line_main {
+    
+    border: 5px solid black;
+}
+
+.line_main2 {
+    border: 3px solid black;
+}
+
+.line_2 {
+    border: 1px solid black;
+}
+
+.line_3 {
+    border: 1.5px solid grey;
+    
+}
+
+.line_4 {
+    border: 1px solid grey;
+}
+
+/* Flex */
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.flex2 {
+    display: flex;
+    gap: 30px
+}
+
+.end {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
