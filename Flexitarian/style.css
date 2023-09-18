@@ -2,13 +2,38 @@ html {
     font-size: 62.5%;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .container {
     border: 1px solid black;
     padding-left: 1rem;
     padding-right: 1rem;
-    max-width: 300px;
+    width: 300px;
+    margin: 10rem auto;
+    display: flex;
+    flex-direction: column;
+
     
 
+}
+
+
+
+.container2 {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.smallheading {
+    width: 15%;
+    text-align: right;
+    align-self: flex-end;
+    margin-top: 1rem;
 }
 /* typography */
 
@@ -54,16 +79,29 @@ p {
 
 /* Flex */
 
-.flex {
+.flex {  
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
-.flex2 {
+.values {
     display: flex;
-    gap: 30px
+    justify-content: space-between;
+    width: 45%;
 }
+
+.bigcol {
+    width: 40%;
+}
+
+.smallcol {
+    width: 20%;
+}
+
+
+
 
 .end {
     display: flex;
@@ -71,7 +109,9 @@ p {
     font-weight: bold;
 }
 
-.column {
-    display: flex;
-    flex-direction: column;
+
+
+.p-l {
+    padding-left: 1rem;
 }
+
